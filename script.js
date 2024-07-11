@@ -63,4 +63,22 @@ const isCharAVowel = (x) => {
     }
 }
 
-console.log('Exercise 3 Result:', isCharAVowel("u"));
+console.log('Exercise 3 Result:', isCharAVowel("u"))
+
+/*
+Exercise 4: generateEmail()
+
+Create a function named generateEmail. It should take two strings: 
+a name and a domain. It should return a simple email address.
+
+Example: generateEmail('johnsmith', 'example.com') 
+should return 'johnsmith@example.com'.
+
+Complete the exercise in the space below:
+*/
+
+const generateEmail = (x, y) => {
+    return x + `@${y}`
+}
+
+console.log('Exercise 4 Result:', generateEmail("microsoft", "apple.com"))
